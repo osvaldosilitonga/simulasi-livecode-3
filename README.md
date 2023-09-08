@@ -27,9 +27,6 @@
 - date_of_return TIMESTAMP
 - condition_at_return VARCHAR 50
 
-- Buat relasi antara "member_id" sebagai foreign key - reference ke members(member_id)
-- Buat relasi antara "isbn" sebagai foreign key - reference ke book(isbn)
-
 ### Relasi Table
 
 - Satu member (member_id) dapat memiliki beberapa transaction
