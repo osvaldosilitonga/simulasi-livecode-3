@@ -30,9 +30,13 @@
 - Buat relasi antara "member_id" sebagai foreign key - reference ke members(member_id)
 - Buat relasi antara "isbn" sebagai foreign key - reference ke book(isbn)
 
-### D. Buat kondisi dimana setiap buku hanya boleh dipinjam oleh 1 member dalam satu waktu
+### Relasi Table
 
-### E. Buat kondisi dimana setiap member dapat meminjam banyak buku tapi tidak lebih dari 5 buku dalam satu waktu
+- Satu member (member_id) dapat memiliki beberapa transaction
+- Satu buku (isbn) dapat berelasi dengan beberapa transaction
+- Setiap transaksi berelasi dengan satu member dan satu buku
+- Setiap transaksi yang dilakukan member dalam satu waktu tidak dapat meminjam lebih dari 5 buku
 
 ## Step 2 - Membuat ERD
+
 <img src="https://github.com/osvaldosilitonga/simulasi-livecode-3/blob/main/ERD.jpg" />
