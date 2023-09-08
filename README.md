@@ -35,3 +35,4 @@
 ### E. Buat kondisi dimana setiap member dapat meminjam banyak buku tapi tidak lebih dari 5 buku dalam satu waktu
 
 ## Step 2 - Membuat ERD
+<img src="https://github.com/osvaldosilitonga/simulasi-livecode-3/blob/main/ERD.jpg" />
